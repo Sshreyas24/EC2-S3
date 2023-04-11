@@ -4,4 +4,3 @@ phases:
   build:
     commands:
       - aws s3 sync . s3://gitbucket24 --delete
-      - aws s3 sync . s3://gitbucket24 --upload
